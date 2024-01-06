@@ -17,50 +17,42 @@
 
 .presentacion-div h1 {
     text-align: center;
-    font-size: 80px;
-    text-shadow: 10px 10px 10px #dadada;
+    font-size: 83px;
+    text-shadow: 8px 8px 8px #dadada;
 }
 
 .presentacion-div p {
     text-align: center;
     font-size: 18px;
     margin-top: 13px;
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 0 35px;
 }
 
 .cartilla-div {
-    width: 25%;
-    border: 7px solid #000000;
-    border-radius: 30px;
+    width: 23%;
+    outline: 5px solid #000000;
+    border-radius: 20px;
     overflow: hidden;
     background-color: #a3ff4c;
-    text-align: center;
 }
 
-.cartilla-div h3 {
-    text-align: center;
-    font-size: 35px;
-    margin-top: 7px;
-}
-
-.cartilla-div-img {
+.cartilla-div-figure {
     max-width: 200px;
-    min-width: 100px;
+    min-width: 90px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 30px;
-    margin-top: 7px;
+    border-radius: 20px;
+    margin-top: 15px;
 }
 
-.cartilla-div-img img {
+.cartilla-div-figure img {
     width: 100%;
     border-radius: 20px;
+    outline: 1px solid #000000;
 }
 
 .cartilla-description {
-    margin-top: 10px;
-    margin: 5px;
+    padding-left: 30px;
 }
 
 .cartilla-description li {
@@ -75,17 +67,7 @@
     content: "♣️";
 }
 
-/* 
------------------------------------
------------------------------------
------------------------------------
-Responsive TABLET
------------------------------------
------------------------------------
------------------------------------
-*/
-
-@media(max-width:1023px) and (min-width:768px) {
+/* @media(max-width:1023px) and (min-width:768px) {
 
     .inicio-div {
         display: flex;
@@ -104,16 +86,6 @@ Responsive TABLET
         width: 40%;
     }
 }
-
-/* 
------------------------------------
------------------------------------
------------------------------------
-Responsive CELULAR
------------------------------------
------------------------------------
------------------------------------
-*/
 
 @media(max-width:767px) {
 
@@ -138,4 +110,4 @@ Responsive CELULAR
     .cartilla-div {
         width: 75%;
     }
-}
+} */

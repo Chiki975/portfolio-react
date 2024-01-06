@@ -22,9 +22,8 @@ const Inicio = () => {
         </main>
 
         <div className="cartilla-div">
-          <h2>TARJETA</h2>
           <div>
-            <figure className="cartilla-div-img">
+            <figure className="cartilla-div-figure">
               <img src={perfil} alt="perfil.jpeg" title="Perfil" />
             </figure>
 
@@ -37,10 +36,10 @@ const Inicio = () => {
               </li>
               <CalcularEdad />
               <li>
-                <b>&#160;CARRERA:&#160;</b>Ingeniería de Sistemas e Informática
+                <b>&#160;CARRERA:&#160;</b>Ing. de Sistemas e Informática
               </li>
               <li>
-                <b>&#160;UNIVERSIDAD:&#160;</b>Universidad Tecnológica del Perú
+                <b>&#160;UNIVERSIDAD:&#160;</b>UTP
               </li>
               <li>
                 <b>&#160;CICLO:&#160;</b>

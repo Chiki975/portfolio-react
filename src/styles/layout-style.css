@@ -1,9 +1,9 @@
 header {
-    transition: top 0.3s ease;
-    overflow: hidden;
     position: fixed;
     width: 100%;
     background: linear-gradient(#f87c7c, #f1d081);
+    transition: top 0.3s ease;
+    border-bottom: 2px solid #000000;
 }
 
 header a {
