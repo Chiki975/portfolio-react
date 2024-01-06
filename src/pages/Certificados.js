@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import excel from "../pdf/Excel.pdf"
 
 const Certificados = () => {
   return (
@@ -8,6 +9,7 @@ const Certificados = () => {
         <title>Certificados</title>
       </Helmet>
       <div>Certificados</div>
+      <iframe src={excel}></iframe>
     </div>
   );
 };

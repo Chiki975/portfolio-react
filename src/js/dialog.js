@@ -25,7 +25,7 @@ const Dialogo = () => {
           <p>
             Visita mi repositorio para mencionar los errores encontrados. Tu
             ayuda me perfeccionará como profesional y persona. Gracias por tu
-            visita 😉😊.
+            visita 😊.
           </p>
 
           <button onClick={handleClick}>ACEPTAR</button>

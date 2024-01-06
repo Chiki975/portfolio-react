@@ -1,37 +1,37 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    font-family: 'Russo One', sans-serif;
-  }
-  
-  li {
-    list-style: none;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  html {
-    background: linear-gradient(135deg, #f87c7c, #f1d081, #1de9b2);
-    background-repeat: no-repeat;
-    background-size: 100% 100vh;
-  }
-  
-  body::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  body::-webkit-scrollbar-track {
-    background: rgb(63, 63, 63);
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background: linear-gradient(135deg, #ff3838, #ffc233, #0effbf);
-    border-radius: 15px;
-    border: 2px solid rgb(0, 0, 0);
-  }
-  
-  hr {
-    border-color: #9e9e9e;
-  }
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Russo One', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  background: linear-gradient(#f87c7c, #f1d081, #1de9b2);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(63, 63, 63);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #ff3838, #ffc233, #0effbf);
+  border-radius: 15px;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+hr {
+  border-color: #9e9e9e;
+}

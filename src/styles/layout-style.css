@@ -1,5 +1,9 @@
 header {
+    transition: top 0.3s ease;
     overflow: hidden;
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(#f87c7c, #f1d081);
 }
 
 header a {
@@ -55,8 +59,6 @@ header a:hover {
     font-size: 15px;
 }
 
-/*Menu dropdown*/
-
 .toggle_btn,
 .dropdown_menu {
     display: none;
@@ -92,17 +94,7 @@ header a:hover {
     padding: 10px 50px;
 }
 
-/* 
------------------------------------
------------------------------------
------------------------------------
-Responsive TABLET
------------------------------------
------------------------------------
------------------------------------
-*/
-
-@media(max-width:1023px) and (min-width:768px) {
+/* @media(max-width:1023px) and (min-width:768px) {
 
     #layout_navbar-logo div {
         width: 50px;
@@ -130,16 +122,6 @@ Responsive TABLET
         color: #000c50;
     }
 }
-
-/* 
------------------------------------
------------------------------------
------------------------------------
-Responsive CELULAR
------------------------------------
------------------------------------
------------------------------------
-*/
 
 @media(max-width:767px) {
 
@@ -172,4 +154,4 @@ Responsive CELULAR
     .dropdown_menu i {
         color: #000c50;
     }
-}
+} */

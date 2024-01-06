@@ -1,22 +1,23 @@
 .inicio-div {
-    overflow: hidden;
-    padding: 17px;
-    justify-content: space-evenly;
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    background-size: 100% 100vh;
+    height: 100vh;
 }
 
 .presentacion-div {
-    margin: 10% 0;
     width: 50%;
     text-align: center;
-    overflow: hidden;
+}
+
+#presenta-hr{
+    width: 80%;
+    margin: 0 auto;
 }
 
 .presentacion-div h1 {
     text-align: center;
-    font-size: 100px;
+    font-size: 80px;
     text-shadow: 10px 10px 10px #dadada;
 }
 
