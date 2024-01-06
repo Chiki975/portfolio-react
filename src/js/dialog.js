@@ -27,7 +27,7 @@ const Dialogo = () => {
             ayuda me perfeccionará como profesional y persona. Gracias por tu
             visita 😉😊.
           </p>
-          <br />
+
           <button onClick={handleClick}>ACEPTAR</button>
         </dialog>
       </>

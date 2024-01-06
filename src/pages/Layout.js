@@ -2,9 +2,8 @@ import { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
 import Footer from "../pages/Footer.js";
 import Dialogo from "../js/dialog.js";
-// import Pikachu from "../img/pikachu.png";
-
-// import "../styles/layout-style.css";
+import Pikachu from "../img/pikachu.png";
+import "../styles/layout-style.css";
 
 const Layout = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,10 +18,10 @@ const Layout = () => {
         <div className="navbar">
           <Link to="/" id="layout_navbar-logo" className="navbar-logo">
             <figure>
-              {/* <img src={Pikachu} alt="pikachu.png" title="Logo" /> */}
+              <img src={Pikachu} alt="pikachu.png" title="Logo" />
             </figure>
 
-            <h2>CARLOS</h2>
+            <h2>CHIKI</h2>
           </Link>
 
           <nav id="nav-h">

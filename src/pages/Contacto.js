@@ -1,9 +1,14 @@
-const Lenguajes = () => {
+import { Helmet } from "react-helmet";
+
+const Contacto = () => {
   return (
     <div>
-      <div>Lenguajes</div>
+      <Helmet>
+        <title>Contacto</title>
+      </Helmet>
+      <div>Contacto</div>
     </div>
   );
 };
 
-export default Lenguajes;
+export default Contacto;

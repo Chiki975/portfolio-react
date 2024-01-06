@@ -1,0 +1,140 @@
+.inicio-div {
+    overflow: hidden;
+    padding: 17px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    background-size: 100% 100vh;
+}
+
+.presentacion-div {
+    margin: 10% 0;
+    width: 50%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.presentacion-div h1 {
+    text-align: center;
+    font-size: 100px;
+    text-shadow: 10px 10px 10px #dadada;
+}
+
+.presentacion-div p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 13px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.cartilla-div {
+    width: 25%;
+    border: 7px solid #000000;
+    border-radius: 30px;
+    overflow: hidden;
+    background-color: #a3ff4c;
+    text-align: center;
+}
+
+.cartilla-div h3 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 7px;
+}
+
+.cartilla-div-img {
+    max-width: 200px;
+    min-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    margin-top: 7px;
+}
+
+.cartilla-div-img img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.cartilla-description {
+    margin-top: 10px;
+    margin: 5px;
+}
+
+.cartilla-description li {
+    margin-top: 5px;
+}
+
+.cartilla-description b {
+    font-size: 17px;
+}
+
+.cartilla-description b::before {
+    content: "♣️";
+}
+
+/* 
+-----------------------------------
+-----------------------------------
+-----------------------------------
+Responsive TABLET
+-----------------------------------
+-----------------------------------
+-----------------------------------
+*/
+
+@media(max-width:1023px) and (min-width:768px) {
+
+    .inicio-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .presentacion-div {
+        margin: 0;
+        margin-top: 8%;
+        width: 80%;
+    }
+
+    .cartilla-div {
+        margin-top: 8%;
+        width: 40%;
+    }
+}
+
+/* 
+-----------------------------------
+-----------------------------------
+-----------------------------------
+Responsive CELULAR
+-----------------------------------
+-----------------------------------
+-----------------------------------
+*/
+
+@media(max-width:767px) {
+
+    .inicio-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .presentacion-div {
+        width: 100%;
+    }
+
+    .presentacion-div h1 {
+        font-size: 40px;
+    }
+
+    .presentacion-div p {
+        font-size: 15px;
+    }
+
+    .cartilla-div {
+        width: 75%;
+    }
+}

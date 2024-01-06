@@ -33,6 +33,7 @@
     padding: 3px;
     background-color: #00ff2a;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .dialog-ms button:hover {

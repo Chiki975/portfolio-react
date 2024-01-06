@@ -1,0 +1,175 @@
+header {
+    overflow: hidden;
+}
+
+header a {
+    color: #000000;
+    font-size: 1rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 4px;
+}
+
+.nav_ul li {
+    margin-left: 30px;
+}
+
+#layout_navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+#layout_navbar-logo figure {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid #000000;
+}
+
+#layout_navbar-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+}
+
+#layout_navbar-logo h2 {
+    margin-left: 10px;
+    font-size: 50px;
+    color: #000000;
+    text-shadow: 1px 3px 3px #4b4b4b;
+}
+
+header a:hover {
+    color: #0026ff;
+}
+
+.nav_ul {
+    display: flex;
+}
+
+.nav_ul a {
+    font-size: 15px;
+}
+
+/*Menu dropdown*/
+
+.toggle_btn,
+.dropdown_menu {
+    display: none;
+}
+
+.toggle_btn {
+    cursor: pointer
+}
+
+.dropdown_menu {
+    display: none;
+    position: absolute;
+    right: 0px;
+    height: 0;
+    width: 250px;
+    background: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.dropdown_menu.open {
+    height: 240px;
+}
+
+.dropdown_menu ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dropdown_menu li {
+    padding: 10px 50px;
+}
+
+/* 
+-----------------------------------
+-----------------------------------
+-----------------------------------
+Responsive TABLET
+-----------------------------------
+-----------------------------------
+-----------------------------------
+*/
+
+@media(max-width:1023px) and (min-width:768px) {
+
+    #layout_navbar-logo div {
+        width: 50px;
+        height: 50px;
+    }
+
+    #layout_navbar-logo h2 {
+        font-size: 40px;
+    }
+
+    #nav-h {
+        display: none;
+    }
+
+    .toggle_btn,
+    .dropdown_menu {
+        display: block;
+    }
+
+    .toggle_btn {
+        font-size: 30px;
+    }
+
+    .dropdown_menu i {
+        color: #000c50;
+    }
+}
+
+/* 
+-----------------------------------
+-----------------------------------
+-----------------------------------
+Responsive CELULAR
+-----------------------------------
+-----------------------------------
+-----------------------------------
+*/
+
+@media(max-width:767px) {
+
+    #layout_navbar-logo div {
+        width: 40px;
+        height: 40px;
+    }
+
+    #layout_navbar-logo h2 {
+        display: none;
+    }
+
+    #nav-h {
+        display: none;
+    }
+
+    .toggle_btn,
+    .dropdown_menu {
+        display: block;
+    }
+
+    .toggle_btn {
+        font-size: 25px;
+    }
+
+    .dropdown_menu {
+        width: 100%;
+    }
+
+    .dropdown_menu i {
+        color: #000c50;
+    }
+}

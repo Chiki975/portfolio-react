@@ -1,0 +1,64 @@
+.sobreMi {
+    padding: 10px;
+}
+
+.sobreMi h2 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 10px;
+    text-shadow: 7px 7px 7px rgb(255, 255, 255);
+}
+
+.sobreMi-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.sobreMi legend {
+    text-align: center;
+}
+
+.sobreMi h3 {
+    font-size: 20px;
+    padding: 0 5px;
+}
+
+.sobreMi-container fieldset {
+    width: 23%;
+    padding: 10px;
+    border-width: 5px;
+    overflow: hidden;
+}
+
+.sobreMi-descripcion {
+    text-align: justify;
+}
+
+.cualidadesAptitudes ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.cualidadesAptitudes li {
+    display: block;
+    margin: 3px;
+    padding: 2px;
+    border: 1px solid #000000;
+    border-radius: 7px;
+}
+
+.sobreMi-hobbies ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sobreMi-hobbies li {
+    margin: 3px;
+    padding: 2px;
+    border: 1px solid #000000;
+    border-radius: 7px
+}
