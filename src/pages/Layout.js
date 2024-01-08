@@ -60,13 +60,20 @@ const Layout = () => {
                 </Link>
               </li>
 
-              <li>
-                <Link to="/Certificados">
-                  <i className="fa-solid fa-certificate">
-                    <span>&#160;Certificados</span>
-                  </i>
-                </Link>
+              <li className="certificado">
+                <details>
+                  <summary accesskey="">
+                    <i className="fa-solid fa-certificate"></i>
+                    &#160;Certificados
+                  </summary>
+                  <ul>
+                    <li>Excel</li>
+                    <li>Ingles</li>
+                    <li>Soporte</li>
+                  </ul>
+                </details>
               </li>
+              
               <li>
                 <Link to="/Contacto">
                   <i className="fa-solid fa-address-book">

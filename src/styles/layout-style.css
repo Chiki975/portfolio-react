@@ -47,8 +47,32 @@ header a {
     text-shadow: 1px 3px 3px #4b4b4b;
 }
 
-header a:hover {
+.certificado {
+    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+}
+
+header a:hover,
+details summary:hover {
     color: #0026ff;
+}
+
+details summary {
+    list-style: none;
+    cursor: pointer;
+}
+
+.certificado ul {
+    position: absolute;
+    background: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    padding: 5px;
+}
+
+.certificado li{
+    font-size: 18px;
+    margin-top: 5px;
+    padding: 0 5px;
 }
 
 .nav_ul {

@@ -1,14 +1,13 @@
 import { useState, useEffect } from "react";
 
 const useHeaderVisibility = () => {
-  const [isHeaderVisible, setHeaderVisible] = useState(true);
+  const [isHeaderVisible, setHeaderVisible] = useState(false);
 
   useEffect(() => {
     let timer;
 
     const hideHeader = () => {
       setHeaderVisible(false);
-      timer = setTimeout(showHeader, 5000);
     };
 
     const showHeader = () => {
@@ -21,7 +20,6 @@ const useHeaderVisibility = () => {
       showHeader();
     };
 
-    timer = setTimeout(hideHeader, 5000);
     window.addEventListener("scroll", handleUserInteraction);
     window.addEventListener("click", handleUserInteraction);
 

@@ -13,10 +13,10 @@ const Inicio = () => {
       <div className="inicio-div">
         <main className="presentacion-div">
           <h1>PORTAFOLIO</h1>
-          <hr id="presenta-hr"/>
+          <hr id="presenta-hr" />
           <p>
-            Este portafolio destaca los conocimientos y los logros
-            que se van obteniendo a lo largo de mi trayectoria profesional y
+            Este portafolio destaca los conocimientos y los logros que se van
+            obteniendo a lo largo de mi trayectoria profesional y
             personal.😉😉😊😊
           </p>
         </main>

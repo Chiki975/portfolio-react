@@ -1,0 +1,76 @@
+.lenguajes-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.lenguajes-container h2 {
+    font-size: 80px;
+    text-shadow: 8px 8px 8px #ffffff;
+    text-align: center;
+}
+
+.lenguajes-tarjetas {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    height: 330px;
+    overflow: auto;
+    border: 1px solid black;
+    padding: 10px 10px 20px 10px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #000000;
+    background-color: #cacaca;
+}
+
+.lenguajes-tarjetas::-webkit-scrollbar {
+    width: 10px;
+}
+
+.lenguajes-tarjetas::-webkit-scrollbar-track {
+    background: rgb(63, 63, 63);
+}
+
+.lenguajes-tarjetas::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #ff3838, #ffc233, #0effbf);
+    border-radius: 15px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.lenguajes-tarjetas fieldset {
+    margin-top: 20px;
+    padding: 3px;
+    border-width: 5px;
+    border-color: #000000;
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.lenguajes-tarjetas legend {
+    font-size: 25px;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.lenguajes-tarjetas figure {
+    max-width: 250px;
+    min-width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lenguajes-tarjetas img {
+    width: 100%;
+}
+
+.lenguajes-tarjetas p{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
