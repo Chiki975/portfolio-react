@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const useHeaderVisibility = () => {
-  const [isHeaderVisible, setHeaderVisible] = useState(false);
+  const [isHeaderVisible, setHeaderVisible] = useState(true);
 
   useEffect(() => {
     let timer;

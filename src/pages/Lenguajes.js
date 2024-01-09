@@ -38,7 +38,7 @@ const Lenguajes = () => {
             <fieldset>
               <legend>CSS</legend>
               <figure>
-                <img src={css} alt="css.png" title="HTML" />
+                <img src={css} alt="css.png" title="CSS" />
               </figure>
 
               <div>

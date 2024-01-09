@@ -7,7 +7,7 @@ import Certificados from "./pages/Certificados";
 import Cv from "./pages/Cv";
 import Contacto from "./pages/Contacto";
 
-function App() {
+const App = () => {
   return (
     <div>
       <Routes>
@@ -22,6 +22,6 @@ function App() {
       </Routes>
     </div>
   );
-}
+};
 
 export default App;

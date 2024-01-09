@@ -52,27 +52,8 @@ header a {
     font-weight: bold;
 }
 
-header a:hover,
-details summary:hover {
+header a:hover {
     color: #0026ff;
-}
-
-details summary {
-    list-style: none;
-    cursor: pointer;
-}
-
-.certificado ul {
-    position: absolute;
-    background: rgb(255, 255, 255, 0.1);
-    backdrop-filter: blur(15px);
-    padding: 5px;
-}
-
-.certificado li{
-    font-size: 18px;
-    margin-top: 5px;
-    padding: 0 5px;
 }
 
 .nav_ul {
@@ -118,7 +99,7 @@ details summary {
     padding: 10px 50px;
 }
 
-/* @media(max-width:1023px) and (min-width:768px) {
+@media(max-width:1023px) and (min-width:768px) {
 
     #layout_navbar-logo div {
         width: 50px;
@@ -178,4 +159,4 @@ details summary {
     .dropdown_menu i {
         color: #000c50;
     }
-} */
+}

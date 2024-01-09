@@ -23,13 +23,13 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: rgb(63, 63, 63);
+  background: #3f3f3f;
 }
 
 body::-webkit-scrollbar-thumb {
   background: linear-gradient(135deg, #ff3838, #ffc233, #0effbf);
   border-radius: 15px;
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid #000000;
 }
 
 hr {

@@ -1,8 +1,5 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
+import { Helmet } from "react-helmet";
 import excel from "../pdf/Excel.pdf";
-import ingles from "../pdf/Ingles.pdf";
-import soporte from "../pdf/Soporte.pdf";
 
 const Certificados = () => {
   return (
@@ -10,8 +7,18 @@ const Certificados = () => {
       <Helmet>
         <title>Certificados</title>
       </Helmet>
-      <div>Certificados</div>
-      <iframe src={excel}></iframe>
+
+      <select name="" id="">
+        <option value="">HTML</option>
+        <option value="">CSS</option>
+        <option value="">JS</option>
+        <option value="">PHP</option>
+        <option value="">PYTHON</option>
+      </select>
+
+      <div className="cv-container">
+        <iframe src={excel}></iframe>
+      </div>
     </div>
   );
 };
