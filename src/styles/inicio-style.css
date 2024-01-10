@@ -77,20 +77,13 @@
     
     .presentacion-div {
         width: 100%;
-        text-align: center;
         height: 100vh;
         display: flex;
         align-items: center;
     }
     
-    #presenta-hr{
-        width: 80%;
-        margin: 0 auto;
-    }
-    
     .presentacion-div h1 {
-        text-align: center;
-        font-size: 83px;
+        font-size: 100px;
         text-shadow: 8px 8px 8px #dadada;
     }
     
