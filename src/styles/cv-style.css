@@ -6,6 +6,7 @@
 }
 
 .cv-container iframe{
-    height: 95%;
+    height: 90vh;
     width: 60%;
+    border: 5px solid #000000;
 }

@@ -1,6 +1,6 @@
 header {
     position: fixed;
-    width: 100%;
+    width: 100vw;
     background: linear-gradient(#f87c7c, #f1d081);
     transition: top 0.3s ease;
     border-bottom: 2px solid #000000;
@@ -79,9 +79,8 @@ header a:hover {
     right: 0px;
     height: 0;
     width: 250px;
-    background: rgb(255, 255, 255, 0.1);
+    background: #0000001a;
     backdrop-filter: blur(15px);
-    border-radius: 10px;
     overflow: hidden;
 }
 
@@ -93,6 +92,10 @@ header a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.dropdown_menu i {
+    color: #000c50;
 }
 
 .dropdown_menu li {
@@ -124,7 +127,9 @@ header a:hover {
     }
 
     .dropdown_menu i {
-        color: #000c50;
+        color: #15008a;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgb(99, 100, 197);
     }
 }
 
@@ -153,7 +158,7 @@ header a:hover {
     }
 
     .dropdown_menu {
-        width: 100%;
+        width: 100vw;
     }
 
     .dropdown_menu i {

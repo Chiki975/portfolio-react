@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import useHeaderVisibility from "../js/useHeaderVisibility.js";
 import { Outlet, Link } from "react-router-dom";
 import Footer from "../pages/Footer.js";
@@ -13,6 +13,16 @@ const Layout = () => {
   const handleClick = () => {
     setIsOpen(!isOpen);
   };
+
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
+
+  useEffect(() => {
+    if (!isHeaderVisible) {
+      setIsOpen(false);
+    }
+  }, [isHeaderVisible]);
 
   return (
     <div>
@@ -88,7 +98,7 @@ const Layout = () => {
           <nav>
             <ul>
               <li>
-                <Link to="/">
+                <Link to="/" onClick={handleLinkClick}>
                   <i className="fa-solid fa-house">
                     <span>&#160;Inicio</span>
                   </i>
@@ -96,7 +106,7 @@ const Layout = () => {
               </li>
 
               <li>
-                <Link to="/SobreMi">
+                <Link to="/SobreMi" onClick={handleLinkClick}>
                   <i className="fa-solid fa-user">
                     <span>&#160;Sobre&#160;Mí</span>
                   </i>
@@ -104,7 +114,7 @@ const Layout = () => {
               </li>
 
               <li>
-                <Link to="/Lenguajes">
+                <Link to="/Lenguajes" onClick={handleLinkClick}>
                   <i className="fa-solid fa-code">
                     <span>&#160;Lenguajes</span>
                   </i>
@@ -112,7 +122,7 @@ const Layout = () => {
               </li>
 
               <li>
-                <Link to="/Cv">
+                <Link to="/Cv" onClick={handleLinkClick}>
                   <i className="fa-solid fa-file">
                     <span>&#160;CV</span>
                   </i>
@@ -120,14 +130,14 @@ const Layout = () => {
               </li>
 
               <li>
-                <Link to="/Certificados">
+                <Link to="/Certificados" onClick={handleLinkClick}>
                   <i className="fa-solid fa-certificate">
                     <span>&#160;Certificados</span>
                   </i>
                 </Link>
               </li>
               <li>
-                <Link to="/Contacto">
+                <Link to="/Contacto" onClick={handleLinkClick}>
                   <i className="fa-solid fa-address-book">
                     <span>&#160;Contacto</span>
                   </i>

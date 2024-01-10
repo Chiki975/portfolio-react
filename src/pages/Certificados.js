@@ -8,15 +8,15 @@ const Certificados = () => {
         <title>Certificados</title>
       </Helmet>
 
-      <select name="" id="">
-        <option value="">HTML</option>
+      <div className="cv-container">
+      <select name="" id="" className="">
+        <option value="">Excel</option>
         <option value="">CSS</option>
         <option value="">JS</option>
         <option value="">PHP</option>
         <option value="">PYTHON</option>
       </select>
 
-      <div className="cv-container">
         <iframe src={excel}></iframe>
       </div>
     </div>
