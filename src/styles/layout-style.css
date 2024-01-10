@@ -125,12 +125,6 @@ header a:hover {
     .toggle_btn {
         font-size: 30px;
     }
-
-    .dropdown_menu i {
-        color: #15008a;
-        -webkit-text-stroke-width: 1px;
-        -webkit-text-stroke-color: rgb(99, 100, 197);
-    }
 }
 
 @media(max-width:767px) {
