@@ -3,9 +3,6 @@
     justify-content: space-evenly;
     align-items: center;
     height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-    display: none;
 }
 
 .presentacion-div {
@@ -70,47 +67,80 @@
     content: "♣️";
 }
 
-/* @media(max-width:1023px) and (min-width:768px) {
+@media(max-width:1023px) and (min-width:768px) {
 
     .inicio-div {
         display: flex;
         flex-direction: column;
+        height: 100%;
+    }
+    
+    .presentacion-div {
+        width: 100%;
+        text-align: center;
+        height: 100vh;
+        display: flex;
         align-items: center;
     }
-
-    .presentacion-div {
-        margin: 0;
-        margin-top: 8%;
+    
+    #presenta-hr{
         width: 80%;
+        margin: 0 auto;
     }
-
+    
+    .presentacion-div h1 {
+        text-align: center;
+        font-size: 83px;
+        text-shadow: 8px 8px 8px #dadada;
+    }
+    
+    .presentacion-div p {
+        text-align: center;
+        font-size: 18px;
+        margin-top: 13px;
+        margin-left: 0 35px;
+    }
+    
     .cartilla-div {
-        margin-top: 8%;
-        width: 40%;
+        width: 23%;
+        outline: 5px solid #000000;
+        border-radius: 20px;
+        overflow: hidden;
+        background-color: #a3ff4c;
+    }
+    
+    .cartilla-div-figure {
+        max-width: 200px;
+        min-width: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        margin-top: 15px;
+    }
+    
+    .cartilla-div-figure img {
+        width: 100%;
+        border-radius: 20px;
+        outline: 1px solid #000000;
+    }
+    
+    .cartilla-description {
+        padding-left: 12%;
+    }
+    
+    .cartilla-description li {
+        margin-top: 5px;
+    }
+    
+    .cartilla-description b {
+        font-size: 17px;
+    }
+    
+    .cartilla-description b::before {
+        content: "♣️";
     }
 }
 
 @media(max-width:767px) {
 
-    .inicio-div {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .presentacion-div {
-        width: 100%;
-    }
-
-    .presentacion-div h1 {
-        font-size: 40px;
-    }
-
-    .presentacion-div p {
-        font-size: 15px;
-    }
-
-    .cartilla-div {
-        width: 75%;
-    }
-} */
+}
