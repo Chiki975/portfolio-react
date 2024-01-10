@@ -94,10 +94,6 @@ header a:hover {
     align-items: center;
 }
 
-.dropdown_menu i {
-    color: #000c50;
-}
-
 .dropdown_menu li {
     padding: 10px 50px;
 }
@@ -124,6 +120,10 @@ header a:hover {
 
     .toggle_btn {
         font-size: 30px;
+    }
+
+    .dropdown_menu i {
+        color: #000c50;
     }
 }
 
