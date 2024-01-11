@@ -94,42 +94,10 @@
         padding: 0 100px;
     }
 
-    .cartilla-div {
-        margin: 0;
+    .cartilla-div-container{
         height: 100vh;
         display: flex;
         align-items: center;
-    }
-
-    .cartilla-div-figure {
-        max-width: 200px;
-        min-width: 20px;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 20px;
-        margin-top: 15px;
-    }
-
-    .cartilla-div-figure img {
-        width: 100%;
-        border-radius: 20px;
-        outline: 1px solid #000000;
-    }
-
-    .cartilla-description {
-        padding-left: 12%;
-    }
-
-    .cartilla-description li {
-        margin-top: 5px;
-    }
-
-    .cartilla-description b {
-        font-size: 17px;
-    }
-
-    .cartilla-description b::before {
-        content: "♣️";
     }
 }
 
@@ -151,5 +119,11 @@
         text-align: center;
         font-size: 50px;
         text-shadow: 3px 3px 3px #dadada;
+    }
+
+    .cartilla-div-container{
+        height: 100vh;
+        display: flex;
+        align-items: center;
     }
 }
