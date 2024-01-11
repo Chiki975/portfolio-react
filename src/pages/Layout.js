@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import useHeaderVisibility from "../js/useHeaderVisibility.js";
 import { Outlet, Link } from "react-router-dom";
+import useHeaderVisibility from "../js/useHeaderVisibility.js";
 import Footer from "../pages/Footer.js";
 import Dialogo from "../js/dialog.js";
 import Pikachu from "../img/pikachu.png";
@@ -136,6 +136,7 @@ const Layout = () => {
                   </i>
                 </Link>
               </li>
+
               <li>
                 <Link to="/Contacto" onClick={handleLinkClick}>
                   <i className="fa-solid fa-address-book">
@@ -151,10 +152,6 @@ const Layout = () => {
       <Dialogo />
 
       <Outlet />
-
-      <hr />
-
-      <Footer />
     </div>
   );
 };

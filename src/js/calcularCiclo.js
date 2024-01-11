@@ -7,9 +7,11 @@ const CalcularCiclo = ({ soloNumero = false }) => {
   useEffect(() => {
     const calcularCiclo = () => {
       const fechaActual = new Date();
+
       let diferencia = Math.floor(
         (fechaActual - fechaInicioCiclos) / (1000 * 60 * 60 * 24 * 7)
       );
+
       let cicloActual = Math.floor(diferencia / 20);
 
       if (

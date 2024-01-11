@@ -10,6 +10,7 @@ const Inicio = () => {
       <Helmet>
         <tiFtle>Portafolio</tiFtle>
       </Helmet>
+
       <div className="inicio-div">
         <div className="presentacion-div">
           <main>
@@ -23,31 +24,33 @@ const Inicio = () => {
           </main>
         </div>
 
-        <div className="cartilla-div">
-          <div>
-            <figure className="cartilla-div-figure">
-              <img src={perfil} alt="perfil.jpeg" title="Perfil" />
-            </figure>
+        <div className="cartilla-div-container">
+          <div className="cartilla-div">
+            <div>
+              <figure className="cartilla-div-figure">
+                <img src={perfil} alt="perfil.jpeg" title="Perfil" />
+              </figure>
 
-            <ul className="cartilla-description">
-              <li>
-                <b>&#160;NOMBRE:&#160;</b>Carlos Daniel
-              </li>
-              <li>
-                <b>&#160;APELLIDO:&#160;</b>Alzamora Huamán
-              </li>
-              <CalcularEdad />
-              <li>
-                <b>&#160;CARRERA:&#160;</b>Ing. de Sistemas e Informática
-              </li>
-              <li>
-                <b>&#160;UNIVERSIDAD:&#160;</b>UTP
-              </li>
-              <li>
-                <b>&#160;CICLO:&#160;</b>
-                <CalcularCiclo soloNumero={true} />
-              </li>
-            </ul>
+              <ul className="cartilla-description">
+                <li>
+                  <b>&#160;NOMBRE:&#160;</b>Carlos Daniel
+                </li>
+                <li>
+                  <b>&#160;APELLIDO:&#160;</b>Alzamora Huamán
+                </li>
+                <CalcularEdad />
+                <li>
+                  <b>&#160;CARRERA:&#160;</b>Ing. de Sistemas e Informática
+                </li>
+                <li>
+                  <b>&#160;UNIVERSIDAD:&#160;</b>UTP
+                </li>
+                <li>
+                  <b>&#160;CICLO:&#160;</b>
+                  <CalcularCiclo soloNumero={true} />
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
