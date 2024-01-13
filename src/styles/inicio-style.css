@@ -68,6 +68,10 @@
     content: "♣️";
 }
 
+.hr-responsive {
+    display: none;
+}
+
 @media(max-width:1023px) and (min-width:768px) {
 
     .inicio-div {
@@ -94,10 +98,14 @@
         padding: 0 100px;
     }
 
-    .cartilla-div-container{
+    .cartilla-div-container {
         height: 100vh;
         display: flex;
         align-items: center;
+    }
+
+    .hr-responsive {
+        display: block;
     }
 }
 
@@ -117,13 +125,21 @@
 
     .presentacion-div h1 {
         text-align: center;
-        font-size: 50px;
+        font-size: 47px;
         text-shadow: 3px 3px 3px #dadada;
     }
 
-    .cartilla-div-container{
+    .presentacion-div p {
+        padding: 0 10px;
+    }
+
+    .cartilla-div-container {
         height: 100vh;
         display: flex;
         align-items: center;
+    }
+
+    .hr-responsive {
+        display: block;
     }
 }

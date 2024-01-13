@@ -24,6 +24,8 @@ const Inicio = () => {
           </main>
         </div>
 
+        <hr className="hr-responsive"/>
+
         <div className="cartilla-div-container">
           <div className="cartilla-div">
             <div>
