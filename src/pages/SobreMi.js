@@ -15,9 +15,11 @@ const SobreMi = () => {
 
           <div className="sobreMi-container">
             <fieldset className="cualidadesAptitudes">
+
               <legend>
                 <h3>CUALIDADES Y APTITUDES</h3>
               </legend>
+
               <div>
                 <ul>
                   <li>Creactividad</li>
@@ -37,6 +39,7 @@ const SobreMi = () => {
               <legend>
                 <h3>DESCRIPCIÓN</h3>
               </legend>
+              
               <p>
                 Soy estudiante de la carrera Ingeniería de Sistemas e
                 Informática. <CalcularCiclo /> Poseo habilidades básicas en
