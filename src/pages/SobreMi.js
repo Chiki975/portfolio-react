@@ -38,9 +38,9 @@ const SobreMi = () => {
                 <h3>DESCRIPCIÓN</h3>
               </legend>
               <p>
-                Soy un estudiante de Ingeniería de Sistemas e Informática.{" "}
-                <CalcularCiclo /> Poseo habilidades básicas en HTML, CSS,
-                JavaScript, React y Java. Mi meta es profundizar mis
+                Soy estudiante de la carrera Ingeniería de Sistemas e
+                Informática. <CalcularCiclo /> Poseo habilidades básicas en
+                HTML, CSS, JavaScript, React y Java. Mi meta es profundizar mis
                 conocimientos en el desarrollo de sitios web, aplicaciones web y
                 aplicaciones de escritorio. Estoy firmemente comprometido con la
                 excelencia académica y siempre estoy en la búsqueda de nuevas
