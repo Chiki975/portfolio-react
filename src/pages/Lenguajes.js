@@ -27,7 +27,7 @@ const Lenguajes = () => {
 
               <div>
                 <p>
-                  <b>NIVEL:</b> Basico
+                  <b>NIVEL:</b> Básico
                 </p>
                 <p>
                   <b>PROYECTO:</b> Presente portafolio
@@ -43,7 +43,7 @@ const Lenguajes = () => {
 
               <div>
                 <p>
-                  <b>NIVEL:</b> Basico
+                  <b>NIVEL:</b> Básico
                 </p>
                 <p>
                   <b>PROYECTO:</b> Presente portafolio
@@ -59,7 +59,7 @@ const Lenguajes = () => {
 
               <div>
                 <p>
-                  <b>NIVEL:</b> Basico
+                  <b>NIVEL:</b> Básico
                 </p>
                 <p>
                   <b>PROYECTO:</b> Presente portafolio
@@ -75,10 +75,10 @@ const Lenguajes = () => {
 
               <div>
                 <p>
-                  <b>NIVEL:</b> Basico
+                  <b>NIVEL:</b> Básico
                 </p>
                 <p>
-                  <b>PROYECTO:</b> Proximamente..
+                  <b>PROYECTO:</b> Próximamente...
                 </p>
               </div>
             </fieldset>
@@ -91,10 +91,10 @@ const Lenguajes = () => {
 
               <div>
                 <p>
-                  <b>NIVEL:</b> Basico
+                  <b>NIVEL:</b> Básico
                 </p>
                 <p>
-                  <b>PROYECTO:</b> Proximamente...
+                  <b>PROYECTO:</b> Próximamente...
                 </p>
               </div>
             </fieldset>
@@ -107,10 +107,10 @@ const Lenguajes = () => {
 
               <div>
                 <p>
-                  <b>NIVEL:</b> Basico
+                  <b>NIVEL:</b> Básico
                 </p>
                 <p>
-                  <b>PROYECTO:</b> Proximamente...
+                  <b>PROYECTO:</b> Próximamente...
                 </p>
               </div>
             </fieldset>
@@ -123,10 +123,10 @@ const Lenguajes = () => {
 
               <div>
                 <p>
-                  <b>NIVEL:</b> Basico
+                  <b>NIVEL:</b> Básico
                 </p>
                 <p>
-                  <b>PROYECTO:</b> Proximamente...
+                  <b>PROYECTO:</b> Próximamente...
                 </p>
               </div>
             </fieldset>
