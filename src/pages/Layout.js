@@ -63,11 +63,27 @@ const Layout = () => {
               </li>
 
               <li>
-                <Link to="/Contacto">
+                <a>
+                  <i className="fa-solid fa-file">
+                    <span>&#160;CV</span>
+                  </i>
+                </a>
+              </li>
+
+              <li>
+                <a>
+                  <i className="fa-solid fa-certificate">
+                    <span>&#160;Certificados</span>
+                  </i>
+                </a>
+              </li>
+
+              <li>
+                <a>
                   <i className="fa-solid fa-address-book">
                     <span>&#160;Contacto</span>
                   </i>
-                </Link>
+                </a>
               </li>
             </ul>
           </nav>
@@ -106,11 +122,27 @@ const Layout = () => {
               </li>
 
               <li>
-                <Link to="/Contacto" onClick={handleLinkClick}>
+                <a>
+                  <i className="fa-solid fa-file">
+                    <span>&#160;CV</span>
+                  </i>
+                </a>
+              </li>
+
+              <li>
+                <a>
+                  <i className="fa-solid fa-certificate">
+                    <span>&#160;Certificados</span>
+                  </i>
+                </a>
+              </li>
+
+              <li>
+                <a>
                   <i className="fa-solid fa-address-book">
                     <span>&#160;Contacto</span>
                   </i>
-                </Link>
+                </a>
               </li>
             </ul>
           </nav>
@@ -120,6 +152,10 @@ const Layout = () => {
       <Dialogo />
 
       <Outlet />
+
+      <hr />
+
+      <Footer />
     </div>
   );
 };

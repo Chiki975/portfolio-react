@@ -1,6 +1,6 @@
 header {
     position: fixed;
-    width: 100vw;
+    width: 100%;
     background: linear-gradient(rgb(248, 124, 124), rgb(241, 208, 129));
     transition: top 0.3s ease;
     border-bottom: 2px solid rgb(0, 0, 0);
@@ -85,7 +85,7 @@ header a:hover {
 }
 
 .dropdown_menu.open {
-    height: 150px;
+    height: 230px;
 }
 
 .dropdown_menu ul {
