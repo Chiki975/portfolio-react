@@ -63,22 +63,6 @@ const Layout = () => {
               </li>
 
               <li>
-                <Link to="/Cv">
-                  <i className="fa-solid fa-file">
-                    <span>&#160;CV</span>
-                  </i>
-                </Link>
-              </li>
-
-              <li>
-                <Link to="/Certificados">
-                  <i className="fa-solid fa-address-book">
-                    <span>&#160;Certificados</span>
-                  </i>
-                </Link>
-              </li>
-
-              <li>
                 <Link to="/Contacto">
                   <i className="fa-solid fa-address-book">
                     <span>&#160;Contacto</span>
@@ -117,22 +101,6 @@ const Layout = () => {
                 <Link to="/Lenguajes" onClick={handleLinkClick}>
                   <i className="fa-solid fa-code">
                     <span>&#160;Lenguajes</span>
-                  </i>
-                </Link>
-              </li>
-
-              <li>
-                <Link to="/Cv" onClick={handleLinkClick}>
-                  <i className="fa-solid fa-file">
-                    <span>&#160;CV</span>
-                  </i>
-                </Link>
-              </li>
-
-              <li>
-                <Link to="/Certificados" onClick={handleLinkClick}>
-                  <i className="fa-solid fa-certificate">
-                    <span>&#160;Certificados</span>
                   </i>
                 </Link>
               </li>

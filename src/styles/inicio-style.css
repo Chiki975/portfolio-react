@@ -19,7 +19,7 @@
 .presentacion-div h1 {
     text-align: center;
     font-size: 83px;
-    text-shadow: 8px 8px 8px #808080;
+    text-shadow: 8px 8px 8px rgb(128, 128, 128);
 }
 
 .presentacion-div p {
@@ -31,10 +31,10 @@
 
 .cartilla-div {
     width: 300px;
-    outline: 5px solid #000000;
+    outline: 5px solid rgb(0, 0, 0);
     border-radius: 20px;
     overflow: hidden;
-    background-color: #a3ff4c;
+    background-color: rgb(163, 255, 76);
 }
 
 .cartilla-div-figure {
@@ -49,7 +49,7 @@
 .cartilla-div-figure img {
     width: 100%;
     border-radius: 20px;
-    outline: 1px solid #000000;
+    outline: 1px solid rgb(0, 0, 0);
 }
 
 .cartilla-description {
@@ -90,7 +90,7 @@
 
     .presentacion-div h1 {
         font-size: 100px;
-        text-shadow: 5px 5px 5px #808080;
+        text-shadow: 5px 5px 5px rgb(128, 128, 128);
     }
 
     .presentacion-div p {
@@ -126,7 +126,7 @@
     .presentacion-div h1 {
         text-align: center;
         font-size: 47px;
-        text-shadow: 3px 3px 3px #808080;
+        text-shadow: 3px 3px 3px rgb(128, 128, 128);
     }
 
     .presentacion-div p {

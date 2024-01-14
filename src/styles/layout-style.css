@@ -1,13 +1,13 @@
 header {
     position: fixed;
     width: 100vw;
-    background: linear-gradient(#f87c7c, #f1d081);
+    background: linear-gradient(rgb(248, 124, 124), rgb(241, 208, 129));
     transition: top 0.3s ease;
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 header a {
-    color: #000000;
+    color: rgb(0, 0, 0);
     font-size: 1rem;
 }
 
@@ -31,7 +31,7 @@ header a {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    border: 3px solid #000000;
+    border: 3px solid rgb(0, 0, 0);
 }
 
 #layout_navbar-logo img {
@@ -43,8 +43,8 @@ header a {
 #layout_navbar-logo h2 {
     margin-left: 10px;
     font-size: 50px;
-    color: #000000;
-    text-shadow: 1px 3px 3px #4b4b4b;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 3px 3px rgb(75, 75, 75);
 }
 
 .certificado {
@@ -53,7 +53,7 @@ header a {
 }
 
 header a:hover {
-    color: #0026ff;
+    color: rgb(0, 38, 255);
 }
 
 .nav_ul {
@@ -79,13 +79,13 @@ header a:hover {
     right: 0px;
     height: 0;
     width: 250px;
-    background: #0000001a;
+    background: rgba(0, 0, 0, 0.102);
     backdrop-filter: blur(15px);
     overflow: hidden;
 }
 
 .dropdown_menu.open {
-    height: 240px;
+    height: 150px;
 }
 
 .dropdown_menu ul {
@@ -123,7 +123,7 @@ header a:hover {
     }
 
     .dropdown_menu i {
-        color: #000c50;
+        color: rgb(0, 12, 80);
     }
 }
 
@@ -156,6 +156,6 @@ header a:hover {
     }
 
     .dropdown_menu i {
-        color: #000c50;
+        color: rgb(0, 12, 80);
     }
 }
