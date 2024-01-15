@@ -80,7 +80,6 @@
         height: 100%;
     }
 
-
     .presentacion-div {
         width: 100%;
         height: 100vh;
@@ -125,7 +124,7 @@
 
     .presentacion-div h1 {
         text-align: center;
-        font-size: 47px;
+        font-size: 43px;
         text-shadow: 3px 3px 3px rgb(128, 128, 128);
     }
 
@@ -141,5 +140,9 @@
 
     .hr-responsive {
         display: block;
+    }
+
+    .cartilla-div {
+        width: 280px;
     }
 }

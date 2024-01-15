@@ -29,7 +29,7 @@ const CalcularCiclo = ({ soloNumero = false }) => {
         setCiclo(
           soloNumero
             ? cicloActual.toString()
-            : "Actualmente me encuentro en el " + cicloActual + "° ciclo."
+            : "en el " + cicloActual + "° ciclo"
         );
       }
     };

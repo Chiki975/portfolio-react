@@ -30,7 +30,7 @@ const Inicio = () => {
           <div className="cartilla-div">
             <div>
               <figure className="cartilla-div-figure">
-                <img src={perfil} alt="perfil.jpeg" title="Perfil" />
+                <img src={perfil} alt="perfil.png" title="Perfil" />
               </figure>
 
               <ul className="cartilla-description">

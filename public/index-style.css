@@ -12,7 +12,7 @@ a {
   text-decoration: none;
 }
 
-body {
+html {
   background: linear-gradient(rgb(248, 124, 124), rgb(241, 208, 129), rgb(29, 233, 178));
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -53,25 +53,6 @@ hr {
   border-radius: 20px;
 }
 
-@media(max-width:305px) {
-
-  #root {
-    display: none;
-  }
-
-  #dimensiones {
-    display: block;
-    height: 100vh;
-    overflow: auto;
-    padding: 5px;
-  }
-
-  #dimensiones p {
-    font-size: 25px;
-    text-align: center;
-  }
-}
-
 @media(min-width:2600px) {
 
   #root {
@@ -87,6 +68,25 @@ hr {
 
   #dimensiones p {
     font-size: 80px;
+    text-align: center;
+  }
+}
+
+@media(max-width:275px) {
+
+  #root {
+    display: none;
+  }
+
+  #dimensiones {
+    display: block;
+    height: 100vh;
+    overflow: auto;
+    padding: 5px;
+  }
+
+  #dimensiones p {
+    font-size: 25px;
     text-align: center;
   }
 }

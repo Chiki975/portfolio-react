@@ -1,4 +1,21 @@
 .footer-container{
-    width: 100%;
-    height: 100vh;
+    padding: 10px;
+}
+
+h5{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.footer-con-cer-cv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-con-cer>div{
+    width: 30%;
+}
+
+.footer-con-cer-cv h4{
+    text-align: center;
 }
