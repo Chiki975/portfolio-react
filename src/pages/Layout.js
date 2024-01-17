@@ -79,7 +79,7 @@ const Layout = () => {
               </li>
 
               <li>
-                <a>
+                <a href="#contacto">
                   <i className="fa-solid fa-address-book">
                     <span>&#160;Contacto</span>
                   </i>
@@ -138,7 +138,7 @@ const Layout = () => {
               </li>
 
               <li>
-                <a>
+                <a href="#contacto">
                   <i className="fa-solid fa-address-book">
                     <span>&#160;Contacto</span>
                   </i>
