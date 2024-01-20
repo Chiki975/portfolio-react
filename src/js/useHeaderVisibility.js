@@ -12,7 +12,7 @@ const useHeaderVisibility = () => {
 
     const showHeader = () => {
       setHeaderVisible(true);
-      timer = setTimeout(hideHeader, 5000);
+      timer = setTimeout(hideHeader, 3000);
     };
 
     const handleUserInteraction = () => {
