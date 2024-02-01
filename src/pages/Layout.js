@@ -63,7 +63,7 @@ const Layout = () => {
               </li>
 
               <li>
-                <a>
+                <a href="#cv">
                   <i className="fa-solid fa-file">
                     <span>&#160;CV</span>
                   </i>
@@ -71,7 +71,7 @@ const Layout = () => {
               </li>
 
               <li>
-                <a>
+                <a href="#certificado">
                   <i className="fa-solid fa-certificate">
                     <span>&#160;Certificados</span>
                   </i>
@@ -122,7 +122,7 @@ const Layout = () => {
               </li>
 
               <li>
-                <a>
+                <a href="#cv">
                   <i className="fa-solid fa-file">
                     <span>&#160;CV</span>
                   </i>
@@ -130,7 +130,7 @@ const Layout = () => {
               </li>
 
               <li>
-                <a>
+                <a href="#certificado">
                   <i className="fa-solid fa-certificate">
                     <span>&#160;Certificados</span>
                   </i>

@@ -94,7 +94,7 @@ const Lenguajes = () => {
                   <b>NIVEL:</b> Básico
                 </p>
                 <p>
-                  <b>PROYECTO:</b> Próximamente...
+                  <b>PROYECTO:</b> Presente portafolio
                 </p>
               </div>
             </fieldset>
