@@ -1,17 +1,11 @@
-import React, { useState } from 'react';
 import "../styles/footer-style.css";
 
 const Footer = () => {
-  const [selectedOption, setSelectedOption] = useState('');
-
-  const handleChange = (event) => {
-    const value = event.target.value;
-    setSelectedOption(value);
+  const handleSelectChange = (e) => {
+    const value = e.target.value;
     if (value) {
-      window.open(`/path/to/${value}.pdf`, '_blank');
+      window.open(`/pages/pdf/${value}.pdf`, "_blank");
     }
-    // Restablecer el menú desplegable después de 1 segundo
-    setTimeout(() => setSelectedOption(''), 1000);
   };
 
   return (
@@ -55,7 +49,7 @@ const Footer = () => {
 
         <div className="footer-certificados" id="certificado">
           <h4>CERTIFICADOS:</h4>
-          <select name="option" value={selectedOption} onChange={handleChange} required>
+          <select name="idioma" id="" required onChange={handleSelectChange}>
             <option value="">Elige una opción</option>
             <option value="Excel">Excel</option>
             <option value="Ingles">Ingles</option>
@@ -65,7 +59,9 @@ const Footer = () => {
 
         <div className="footer-cv" id="cv">
           <h4>CV:</h4>
-          <p><a >ABRIR</a> o <a>DESCARGAR</a></p>
+          <p>
+            <a>ABRIR</a> o <a>DESCARGAR</a>
+          </p>
         </div>
       </div>
 
