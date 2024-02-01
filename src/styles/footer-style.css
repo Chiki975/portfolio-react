@@ -111,15 +111,6 @@ h5 {
     text-align: center;
 }
 
-@media(max-width:1023px) and (min-width:768px) {
-    .footer-contacto-link {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        flex-wrap: nowrap;
-    }
-}
-
 @media(max-width:767px) {
     .footer-con-cer-cv {
         flex-direction: column;
