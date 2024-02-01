@@ -113,12 +113,11 @@ h5 {
 
 @media(max-width:767px) {
     .footer-con-cer-cv {
-        flex-direction: column;
         text-align: center;
+        flex-wrap: wrap;
     }
-
-    .footer-con-cer-cv>div {
-        margin: 0 auto;
+    .footer-con-cer-cv>div{
+        width: 50%;
     }
 
     #certificado {
