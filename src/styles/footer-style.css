@@ -61,18 +61,23 @@
     padding: 5px;
 }
 
+#contacto,
+#certificado,
+#cv {
+    padding-bottom: 5px;
+}
+
 #contacto:target,
 #certificado:target,
 #cv:target {
-    outline: 1px solid #000000;
+    outline: 1px solid gold;
     animation: luz 4s ease-in-out forwards;
-    border: 2px solid gold;
 }
 
 @keyframes luz {
     0% {
         box-shadow: 0 0 20px yellow;
-        outline: 1px solid #000000;
+        outline: 1px solid gold;
     }
 
     50% {
@@ -116,7 +121,8 @@ h5 {
         text-align: center;
         flex-wrap: wrap;
     }
-    .footer-con-cer-cv>div{
+
+    .footer-con-cer-cv>div {
         width: 50%;
     }
 
@@ -130,5 +136,9 @@ h5 {
 
     #cv {
         margin-top: 10px;
+    }
+
+    h5 {
+        margin-top: 15px;
     }
 }
