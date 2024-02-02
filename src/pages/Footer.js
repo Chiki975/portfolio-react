@@ -16,6 +16,14 @@ const Footer = () => {
 
           <div className="footer-contacto-link">
             <a
+              href="https://t.me/Chiki738"
+              title="Telegram"
+              target="_blank"
+              rel="noopener noreferrer">
+              <i className="fa-brands fa-telegram" id="telegram"></i> Telegram
+            </a>
+
+            <a
               href="https://www.linkedin.com/in/daniel-alzamora-854a67266"
               title="LinkedIn"
               target="_blank"
@@ -37,24 +45,7 @@ const Footer = () => {
               rel="noopener noreferrer">
               <i className="fa-regular fa-envelope" id="gmail"></i> Gmail
             </a>
-            <a
-              href="https://t.me/Chiki738"
-              title="Telegram"
-              target="_blank"
-              rel="noopener noreferrer">
-              <i className="fa-brands fa-telegram" id="telegram"></i> Telegram
-            </a>
           </div>
-        </div>
-
-        <div className="footer-certificados" id="certificado">
-          <h4>CERTIFICADOS:</h4>
-          <select name="idioma" id="" required onChange={handleSelectChange}>
-            <option value="">Elige una opción</option>
-            <option value="Excel">Excel</option>
-            <option value="Ingles">Ingles</option>
-            <option value="Soporte">Soporte</option>
-          </select>
         </div>
 
         <div className="footer-cv" id="cv">

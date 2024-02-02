@@ -63,15 +63,7 @@ const Layout = () => {
               </li>
 
               <li>
-                <a href="#cv">
-                  <i className="fa-solid fa-file">
-                    <span>&#160;CV</span>
-                  </i>
-                </a>
-              </li>
-
-              <li>
-                <a href="#certificado">
+                <a href="/certificados">
                   <i className="fa-solid fa-certificate">
                     <span>&#160;Certificados</span>
                   </i>
@@ -79,7 +71,15 @@ const Layout = () => {
               </li>
 
               <li>
-                <a href="#contacto">
+                <a href="#cv">
+                  <i className="fa-solid fa-file" onClick={handleLinkClick}>
+                    <span>&#160;CV</span>
+                  </i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#contacto" onClick={handleLinkClick}>
                   <i className="fa-solid fa-address-book">
                     <span>&#160;Contacto</span>
                   </i>
@@ -122,15 +122,7 @@ const Layout = () => {
               </li>
 
               <li>
-                <a href="#cv">
-                  <i className="fa-solid fa-file">
-                    <span>&#160;CV</span>
-                  </i>
-                </a>
-              </li>
-
-              <li>
-                <a href="#certificado">
+                <a href="/certificados" onClick={handleLinkClick}>
                   <i className="fa-solid fa-certificate">
                     <span>&#160;Certificados</span>
                   </i>
@@ -138,7 +130,15 @@ const Layout = () => {
               </li>
 
               <li>
-                <a href="#contacto">
+                <a href="#cv" onClick={handleLinkClick}>
+                  <i className="fa-solid fa-file">
+                    <span>&#160;CV</span>
+                  </i>
+                </a>
+              </li>
+
+              <li>
+                <a href="#contacto" onClick={handleLinkClick}>
                   <i className="fa-solid fa-address-book">
                     <span>&#160;Contacto</span>
                   </i>

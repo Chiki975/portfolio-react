@@ -112,6 +112,7 @@
     .inicio-div {
         display: flex;
         flex-direction: column;
+        padding-bottom: 15px;
         height: 100%;
     }
 
@@ -133,7 +134,7 @@
     }
 
     .cartilla-div-container {
-        height: 100vh;
+        height: 430px;
         display: flex;
         align-items: center;
     }

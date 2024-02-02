@@ -109,6 +109,7 @@
     color: #147900;
     font-weight: bold;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 h5 {
