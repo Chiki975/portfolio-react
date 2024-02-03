@@ -33,22 +33,18 @@ const Lenguajes = () => {
         <title>Certificados</title>
       </Helmet>
       <div className="certificados-container">
-        <h2>CERTIFICADOS</h2>
+        <div className="certificados-content">
+          <h2>CERTIFICADOS</h2>
 
-        <div className="select">
           <select name="idioma" id="" required onChange={handleSelectChange}>
             <option value="">Elige una opción</option>
             <option value="Excel">Excel</option>
             <option value="Ingles">Inglés</option>
             <option value="Soporte">Soporte</option>
           </select>
+          <br />
+          {iframeSrc && <iframe src={iframeSrc}></iframe>}
         </div>
-
-        {iframeSrc && (
-          <div className="iframe">
-            <iframe src={iframeSrc}></iframe>
-          </div>
-        )}
       </div>
     </div>
   );

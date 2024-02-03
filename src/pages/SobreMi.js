@@ -1,15 +1,33 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import CalcularCiclo from "../js/calcularCiclo.js";
 import "../styles/sobreMi-style.css";
 
 const SobreMi = () => {
+  const [height, setHeight] = useState(window.innerHeight);
+
+  useEffect(() => {
+    const checkHeight = () => {
+      setHeight(window.innerHeight);
+    };
+
+    const intervalId = setInterval(checkHeight, 1000);
+
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, []);
+
+  const containerStyle = {
+    height: height > 1101 ? "100vh" : "100%",
+  };
+
   return (
     <div>
       <Helmet>
         <title>Sobre Mí</title>
       </Helmet>
-      <div className="container-container">
+      <div id="sobreMi-container" style={containerStyle}>
         <div className="sobreMi">
           <div>
             <h2>SOBRE MÍ</h2>
