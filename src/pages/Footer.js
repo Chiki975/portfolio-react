@@ -1,13 +1,6 @@
 import "../styles/footer-style.css";
 
 const Footer = () => {
-  const handleSelectChange = (e) => {
-    const value = e.target.value;
-    if (value) {
-      window.open(`/pages/pdf/${value}.pdf`, "_blank");
-    }
-  };
-
   return (
     <div className="footer-container">
       <div className="footer-con-cer-cv">
@@ -50,9 +43,7 @@ const Footer = () => {
 
         <div className="footer-cv" id="cv">
           <h4>CV:</h4>
-          <p>
-            <a>ABRIR</a> o <a>DESCARGAR</a>
-          </p>
+          <a>DESCARGAR</a>
         </div>
       </div>
 
