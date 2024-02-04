@@ -1,9 +1,10 @@
 import "../styles/footer-style.css";
+import cv from "../pages/pdf/Excel.pdf";
 
 const Footer = () => {
   return (
     <div className="footer-container">
-      <div className="footer-con-cer-cv">
+      <div className="footer-con-cv">
         <div className="footer-contacto" id="contacto">
           <h4>CONTACTO:</h4>
 
@@ -43,7 +44,9 @@ const Footer = () => {
 
         <div className="footer-cv" id="cv">
           <h4>CV:</h4>
-          <a>DESCARGAR</a>
+          <a href={cv} download>
+            <button>Descargar</button>
+          </a>
         </div>
       </div>
 

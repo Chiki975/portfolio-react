@@ -2,17 +2,17 @@
     padding: 10px;
 }
 
-.footer-con-cer-cv {
+.footer-con-cv {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.footer-con-cer-cv>div {
+.footer-con-cv>div {
     width: 30%;
 }
 
-.footer-con-cer-cv h4 {
+.footer-con-cv h4 {
     text-align: center;
     margin-top: 7px;
 }
@@ -62,13 +62,11 @@
 }
 
 #contacto,
-#certificado,
 #cv {
     padding-bottom: 5px;
 }
 
 #contacto:target,
-#certificado:target,
 #cv:target {
     outline: 1px solid gold;
     animation: luz 4s ease-in-out forwards;
@@ -92,12 +90,8 @@
     }
 }
 
-#certificado {
+#cv {
     text-align: center;
-}
-
-#certificado select {
-    margin-top: 7px;
 }
 
 #cv p {
@@ -105,10 +99,19 @@
     margin-top: 7px;
 }
 
-#cv a:hover {
-    color: #147900;
+#cv button{
+    margin-top: 5px;
+    border-radius: 15px;
+    border: 3px solid black;
+    font-size: 20px;
+    padding: 5px;
     font-weight: bold;
-    text-decoration: underline;
+}
+
+#cv button:hover {
+    color: #072700;
+    background-color: #4eff48;
+    border-color: #072700;
     cursor: pointer;
 }
 
