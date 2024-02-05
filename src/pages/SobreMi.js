@@ -40,7 +40,7 @@ const SobreMi = () => {
 
                 <div>
                   <ul>
-                    <li>Creactividad</li>
+                    <li>Creatividad</li>
                     <li>Productividad</li>
                     <li>Empatia</li>
                     <li>Respeto</li>
