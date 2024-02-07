@@ -68,22 +68,6 @@ const Lenguajes = () => {
             </fieldset>
 
             <fieldset>
-              <legend>JAVA</legend>
-              <figure>
-                <img src={java} alt="java.png" title="JAVA" />
-              </figure>
-
-              <div>
-                <p>
-                  <b>NIVEL:</b> Básico
-                </p>
-                <p>
-                  <b>PROYECTO:</b> Próximamente...
-                </p>
-              </div>
-            </fieldset>
-
-            <fieldset>
               <legend>REACT</legend>
               <figure>
                 <img src={react} alt="ract.png" title="REACT" />
@@ -95,6 +79,22 @@ const Lenguajes = () => {
                 </p>
                 <p>
                   <b>PROYECTO:</b> Presente portafolio
+                </p>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>JAVA</legend>
+              <figure>
+                <img src={java} alt="java.png" title="JAVA" />
+              </figure>
+
+              <div>
+                <p>
+                  <b>NIVEL:</b> Básico
+                </p>
+                <p>
+                  <b>PROYECTO:</b> Próximamente...
                 </p>
               </div>
             </fieldset>
