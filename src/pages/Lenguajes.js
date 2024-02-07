@@ -7,6 +7,7 @@ import sqlServer from "../img/sqlServer.png";
 import css from "../img/css.png";
 import js from "../img/js.png";
 import mySql from "../img/mySql.png";
+import sqlServerProject from "../project/bd-sqlServer.zip";
 
 const Lenguajes = () => {
   return (
@@ -21,11 +22,15 @@ const Lenguajes = () => {
           <div className="lenguajes-tarjetas">
             <fieldset>
               <legend>HTML</legend>
+              <p>
+                Proyecto creado en el año 2024. Se utilizó este lenguaje para
+                estructurar el sitio web, con la ayuda de CSS y JS.
+              </p>
               <figure>
                 <img src={html} alt="html.png" title="HTML" />
               </figure>
 
-              <div>
+              <div className="lenguajes-content">
                 <p>
                   <b>NIVEL:</b> Básico
                 </p>
@@ -37,11 +42,15 @@ const Lenguajes = () => {
 
             <fieldset>
               <legend>CSS</legend>
+              <p>
+                Proyecto creado en el año 2024. Se utilizó este lenguaje para
+                dar estilo a los elementos de HTML.
+              </p>
               <figure>
                 <img src={css} alt="css.png" title="CSS" />
               </figure>
 
-              <div>
+              <div className="lenguajes-content">
                 <p>
                   <b>NIVEL:</b> Básico
                 </p>
@@ -53,11 +62,16 @@ const Lenguajes = () => {
 
             <fieldset>
               <legend>JS</legend>
+              <p>
+                Proyecto creado en el año 2024. Se utilizó este lenguaje para
+                controlar el comportamiento de la página web.
+              </p>
+
               <figure>
                 <img src={js} alt="js.png" title="JS" />
               </figure>
 
-              <div>
+              <div className="lenguajes-content">
                 <p>
                   <b>NIVEL:</b> Básico
                 </p>
@@ -69,11 +83,16 @@ const Lenguajes = () => {
 
             <fieldset>
               <legend>REACT</legend>
+              <p>
+                Proyecto creado en el año 2024. Se utilizó esta librería para
+                mejorar la eficiencia y eficacia al momento de realizar la
+                página web.
+              </p>
               <figure>
                 <img src={react} alt="ract.png" title="REACT" />
               </figure>
 
-              <div>
+              <div className="lenguajes-content">
                 <p>
                   <b>NIVEL:</b> Básico
                 </p>
@@ -89,7 +108,7 @@ const Lenguajes = () => {
                 <img src={java} alt="java.png" title="JAVA" />
               </figure>
 
-              <div>
+              <div className="lenguajes-content">
                 <p>
                   <b>NIVEL:</b> Básico
                 </p>
@@ -105,7 +124,7 @@ const Lenguajes = () => {
                 <img src={mySql} alt="ract.png" title="MySQL" />
               </figure>
 
-              <div>
+              <div className="lenguajes-content">
                 <p>
                   <b>NIVEL:</b> Básico
                 </p>
@@ -117,16 +136,25 @@ const Lenguajes = () => {
 
             <fieldset>
               <legend>SQLSERVER</legend>
+              <p>
+                Proyecto realizado en el año 2022. Se trata de un observatorio
+                donde se encuentran datos sobre distintas denuncias hechas en
+                Perú. Cabe recalcar que todos los datos de las denuncias son
+                inventados.
+              </p>
               <figure>
                 <img src={sqlServer} alt="sqlServer.png" title="sqlServer" />
               </figure>
 
-              <div>
+              <div className="lenguajes-content">
                 <p>
                   <b>NIVEL:</b> Básico
                 </p>
                 <p>
-                  <b>PROYECTO:</b> Próximamente...
+                  <b>PROYECTO:</b>
+                  <a href={sqlServerProject} download>
+                    Descargar
+                  </a>
                 </p>
               </div>
             </fieldset>
