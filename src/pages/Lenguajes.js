@@ -153,7 +153,7 @@ const Lenguajes = () => {
                 <p>
                   <b>PROYECTO:</b>
                   <a href={sqlServerProject} download>
-                    Descargar
+                    &#160;Descargar
                   </a>
                 </p>
               </div>

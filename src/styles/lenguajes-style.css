@@ -75,13 +75,19 @@
     width: 100%;
 }
 
-.lenguajes-content{
+.lenguajes-content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.lenguajes-content p{
+.lenguajes-content a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.lenguajes-content p {
     margin-top: 10px;
 }
 
