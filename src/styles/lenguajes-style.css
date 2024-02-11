@@ -89,6 +89,7 @@
 
 .lenguajes-content p {
     margin-top: 10px;
+    text-align: center;
 }
 
 @media(max-width:1023px) and (min-width:768px) {
