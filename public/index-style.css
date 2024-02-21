@@ -72,7 +72,7 @@ hr {
   }
 }
 
-@media(max-width:280px) {
+@media(max-width:279px) {
 
   #root {
     display: none;
