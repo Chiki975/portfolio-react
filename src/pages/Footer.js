@@ -10,6 +10,14 @@ const Footer = () => {
 
           <div className="footer-contacto-link">
             <a
+              href="https://api.whatsapp.com/send?phone=51956299119"
+              title="WhatsApp"
+              target="_blank"
+              rel="noopener noreferrer">
+              <i class="fa-brands fa-whatsapp" id="whatsapp"></i> WhatsApp
+            </a>
+
+            <a
               href="https://t.me/Chiki738"
               title="Telegram"
               target="_blank"
