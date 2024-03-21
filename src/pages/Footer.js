@@ -1,5 +1,5 @@
 import "../styles/footer-style.css";
-import cv from "../pages/pdf/Excel.pdf";
+import cv from "../pages/pdf/Cv-alz.pdf";
 
 const Footer = () => {
   return (
