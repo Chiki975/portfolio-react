@@ -1,7 +1,7 @@
 * {
   padding: 0px;
   margin: 0px;
-  font-family: 'Russo One', sans-serif;
+  font-family: "Russo One", sans-serif;
 }
 
 li {
@@ -13,7 +13,11 @@ a {
 }
 
 html {
-  background: linear-gradient(rgb(248, 124, 124), rgb(241, 208, 129), rgb(29, 233, 178));
+  background: linear-gradient(
+    rgb(248, 124, 124),
+    rgb(241, 208, 129),
+    rgb(29, 233, 178)
+  );
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -27,7 +31,12 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: linear-gradient(135deg, rgb(255, 56, 56), rgb(255, 194, 51), rgb(14, 255, 191));
+  background: linear-gradient(
+    135deg,
+    rgb(255, 56, 56),
+    rgb(255, 194, 51),
+    rgb(14, 255, 191)
+  );
   border-radius: 15px;
   border: 2px solid rgb(0, 0, 0);
 }
@@ -53,8 +62,7 @@ hr {
   border-radius: 20px;
 }
 
-@media(min-width:2600px) {
-
+@media (min-width: 2600px) {
   #root {
     display: none;
   }
@@ -72,8 +80,7 @@ hr {
   }
 }
 
-@media(max-width:279px) {
-
+@media (max-width: 279px) {
   #root {
     display: none;
   }
